@@ -30,7 +30,16 @@ void gameOverMode() {
 
   fill(winColor);
   textSize(80);
-  text(winText, width/2, height/2 - 10);
+  text(winText, width/2, height/2 - 30);
+
+  // Win message
+  fill(lineColor);
+  textSize(26);
+  if (leftWins) {
+    text("nah, i'd air-hockey (win).", width/2, height/2 + 55);
+  } else {
+    text("stand proud red, you were strong", width/2, height/2 + 55);
+  }
 
   // Return prompt
   fill(lineColor);

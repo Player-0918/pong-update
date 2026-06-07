@@ -16,8 +16,8 @@ void introMode() {
   // Title
   textAlign(CENTER, CENTER);
   fill(lineColor);
-  textSize(96);
-  text("AIR HOCKEY", width/2, 140);
+  textSize(80);
+  text("PONG- BUT AIR HOCKEY ;)", width/2, 140);
 
   // Subtitle
   textSize(17);
